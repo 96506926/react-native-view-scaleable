@@ -1,7 +1,7 @@
 {
-  "name": "react-native-view-editable",
-  "version": "0.0.0-development",
-  "description": "The one of the missing piece of react-native. View transformation with gestures ✋",
+  "name": "react-native-view-scaleable",
+  "version": "1.0.0",
+  "description": "fix the react native bug for react-native-view-editable",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/react-armenia/react-native-view-editable.git"
+    "url": "git@github.com:96506926/react-native-view-scaleable.git"
   },
   "keywords": [
     "react",
@@ -27,9 +27,9 @@
   "author": "Shahen Hovhannisyan <shahen.hovhannisyan.94@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/react-armenia/react-native-view-editable/issues"
+    "url": "https://github.com/96506926/react-native-view-scaleable/issues"
   },
-  "homepage": "https://github.com/react-armenia/react-native-view-editable#readme",
+  "homepage": "https://github.com/96506926/react-native-view-scaleable#readme",
   "devDependencies": {
     "babel-eslint": "6.1.2",
     "babel-jest": "19.0.0",
@@ -52,7 +52,8 @@
     "react-native": "0.42.3",
     "react-test-renderer": "15.4.2",
     "semantic-release": "^6.3.2",
-    "semantic-release-cli": "^3.0.3"
+    "semantic-release-cli": "^3.0.3",
+    "prop-types": "^15.6.2"
   },
   "jest": {
     "preset": "react-native"
